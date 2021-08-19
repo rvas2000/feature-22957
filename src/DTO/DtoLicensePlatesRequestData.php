@@ -56,7 +56,7 @@ class DtoLicensePlatesRequestData
             $licensePlateItem->from         = new \DateTime($from);
             $licensePlateItem->to           = new \DateTime($to);
 
-            $this->data[] = $licensePlateItem->licensePlate;
+            $this->data[] = $licensePlateItem;
         }
     }
 }
